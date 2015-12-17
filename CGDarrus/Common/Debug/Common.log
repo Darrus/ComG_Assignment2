@@ -1,0 +1,20 @@
+﻿Build started 12/16/2015 10:19:47 PM.
+     1>Project "G:\Assignments\Computer Graphics\CGDarrus\Common\Common.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\MatrixStack.cpp Source\Mtx44.cpp Source\Vector3.cpp Source\timer.cpp
+         timer.cpp
+         Vector3.cpp
+         Mtx44.cpp
+         MatrixStack.cpp
+         Generating Code...
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\Assignments\Computer Graphics\CGDarrus\Debug\Common.lib" /NOLOGO Debug\MatrixStack.obj
+         Debug\Mtx44.obj
+         Debug\timer.obj
+         Debug\Vector3.obj
+         Common.vcxproj -> G:\Assignments\Computer Graphics\CGDarrus\Debug\Common.lib
+     1>Done Building Project "G:\Assignments\Computer Graphics\CGDarrus\Common\Common.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.78

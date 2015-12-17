@@ -1,0 +1,50 @@
+﻿Build started 12/16/2015 10:19:53 PM.
+     1>Project "G:\Assignments\Computer Graphics\CGDarrus\CGDarrus\CGDarrus.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"G:\Assignments\Computer Graphics\CGDarrus\\glew\include" /I"G:\Assignments\Computer Graphics\CGDarrus\\glfw\include" /I"G:\Assignments\Computer Graphics\CGDarrus\\Common\Source" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Application.cpp Source\Assignment2.cpp Source\Camera.cpp Source\Mesh.cpp Source\MeshBuilder.cpp Source\Scene1.cpp Source\Scene2.cpp Source\Scene3.cpp Source\Scene4.cpp Source\SceneLight.cpp Source\SceneLight2.cpp Source\Utility.cpp Source\main.cpp Source\shader.cpp
+         shader.cpp
+         main.cpp
+         Utility.cpp
+         SceneLight2.cpp
+     1>g:\assignments\computer graphics\cgdarrus\cgdarrus\source\scenelight2.cpp(297): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         SceneLight.cpp
+     1>g:\assignments\computer graphics\cgdarrus\cgdarrus\source\scenelight.cpp(252): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Scene4.cpp
+         Scene3.cpp
+         Scene2.cpp
+         Scene1.cpp
+         MeshBuilder.cpp
+     1>g:\assignments\computer graphics\cgdarrus\cgdarrus\source\meshbuilder.cpp(736): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>g:\assignments\computer graphics\cgdarrus\cgdarrus\source\meshbuilder.cpp(785): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>g:\assignments\computer graphics\cgdarrus\cgdarrus\source\meshbuilder.cpp(787): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+         Mesh.cpp
+         Camera.cpp
+         Assignment2.cpp
+     1>g:\assignments\computer graphics\cgdarrus\cgdarrus\source\assignment2.cpp(245): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>g:\assignments\computer graphics\cgdarrus\cgdarrus\source\assignment2.cpp(251): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>g:\assignments\computer graphics\cgdarrus\cgdarrus\source\assignment2.cpp(648): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>g:\assignments\computer graphics\cgdarrus\cgdarrus\source\assignment2.cpp(658): warning C4305: 'argument' : truncation from 'double' to 'float'
+         Application.cpp
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Assignments\Computer Graphics\CGDarrus\Debug\CGDarrus.exe" /INCREMENTAL /NOLOGO /LIBPATH:"G:\Assignments\Computer Graphics\CGDarrus\\glew\lib" /LIBPATH:"G:\Assignments\Computer Graphics\CGDarrus\\glfw\lib-msvc120" /LIBPATH:"G:\Assignments\Computer Graphics\CGDarrus\Debug" glew32.lib glfw3.lib opengl32.lib winmm.lib Common.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Assignments\Computer Graphics\CGDarrus\Debug\CGDarrus.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Assignments\Computer Graphics\CGDarrus\Debug\CGDarrus.lib" /MACHINE:X86 Debug\Application.obj
+         Debug\Assignment2.obj
+         Debug\Camera.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\MeshBuilder.obj
+         Debug\Scene1.obj
+         Debug\Scene2.obj
+         Debug\Scene3.obj
+         Debug\Scene4.obj
+         Debug\SceneLight.obj
+         Debug\SceneLight2.obj
+         Debug\shader.obj
+         Debug\Utility.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         CGDarrus.vcxproj -> G:\Assignments\Computer Graphics\CGDarrus\Debug\CGDarrus.exe
+     1>Done Building Project "G:\Assignments\Computer Graphics\CGDarrus\CGDarrus\CGDarrus.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:25.81
